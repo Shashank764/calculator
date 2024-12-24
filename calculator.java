@@ -6,7 +6,7 @@ public class calculator {
         Scanner sc=new Scanner(System.in);
         System.out.println("          CALCULATOR          ");
         System.out.println("------------------------------");
-        System.out.println("operations you can perform...!\nAddition:'+'\nSubtraction:'-'\nMultiplication:'*'\nDivision:'/'\nPower:'^'\nModulus'%'\nFactorial:'!'\n------------------------------");
+        System.out.println("operations you can perform...!\nAddition:'+'\nSubtraction:'-'\nMultiplication:'*'\nDivision:'/'\nPower:'^'\nModulus'%'\nFactorial:'!'\nClear:'x'\n------------------------------");
         String op;
         System.out.print("Enter the number: ");
         double a= sc.nextFloat();
@@ -15,7 +15,7 @@ public class calculator {
         boolean cont=true;
         do{
             System.out.print("Enter the operation: ");
-            op= String.valueOf(sc.next().charAt(0));
+            op= String.valueOf(sc.next().toUpperCase().charAt(0));
             switch (op){
                 case "+":
                     System.out.print("Enter the number: ");
@@ -96,6 +96,12 @@ public class calculator {
                     if(x7.equals("N")) {
                         cont = false;
                     }
+                    break;
+                case "X":
+                    result=0;
+                    System.out.print("Enter the number: ");
+                    double a2= sc.nextDouble();
+                    result=a2;
                     break;
                 default:
                     System.out.println("Invalid Operation...!");
