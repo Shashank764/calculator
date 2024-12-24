@@ -21,7 +21,7 @@ public class calculator {
                     System.out.print("Enter the number: ");
                     b= sc.nextFloat();
                     result+=b;
-                    System.out.println("Answer:- "+result);
+                    System.out.println("Answer: "+result);
                     System.out.println("Want to continue...(Y/N)");
                     String x= sc.next().toUpperCase();
                     if(x.equals("N")){
@@ -32,7 +32,7 @@ public class calculator {
                     System.out.print("Enter the number: ");
                     b= sc.nextFloat();
                     result-=b;
-                    System.out.println("Answer:- "+result);
+                    System.out.println("Answer: "+result);
                     System.out.println("Want to continue...(Y/N)");
                     String x1= sc.next().toUpperCase();
                     if(x1.equals("N")) {
@@ -43,7 +43,7 @@ public class calculator {
                     System.out.print("Enter the number: ");
                     b= sc.nextFloat();
                     result*=b;
-                    System.out.println("Answer:- "+result);
+                    System.out.println("Answer: "+result);
                     System.out.println("Want to continue...(Y/N)");
                     String x3= sc.next().toUpperCase();
                     if(x3.equals("N")) {
@@ -54,7 +54,7 @@ public class calculator {
                     System.out.print("Enter the number: ");
                     b= sc.nextFloat();
                     result/=b;
-                    System.out.println("Answer:- "+result);
+                    System.out.println("Answer: "+result);
                     System.out.println("Want to continue...(Y/N)");
                     String x4= sc.next().toUpperCase();
                     if(x4.equals("N")){
@@ -65,7 +65,7 @@ public class calculator {
                     System.out.print("Enter the number: ");
                     b= sc.nextFloat();
                     result=Math.pow(result,b);
-                    System.out.println("Answer:- "+result);
+                    System.out.println("Answer: "+result);
                     System.out.println("Want to continue...(Y/N)");
                     String x5= sc.next().toUpperCase();
                     if(x5.equals("N")) {
@@ -76,7 +76,7 @@ public class calculator {
                     System.out.print("Enter the number: ");
                     b= sc.nextFloat();
                     result%=b;
-                    System.out.println("Answer:- "+result);
+                    System.out.println("Answer: "+result);
                     System.out.println("Want to continue...(Y/N)");
                     String x6= sc.next().toUpperCase();
                     if(x6.equals("N")) {
@@ -90,7 +90,7 @@ public class calculator {
                         fact*=i;
                     }
                     result=fact;
-                    System.out.println("Answer:- "+(int)result);
+                    System.out.println("Answer: "+(int)result);
                     System.out.println("Want to continue...(Y/N)");
                     String x7= sc.next().toUpperCase();
                     if(x7.equals("N")) {
